@@ -10,9 +10,12 @@ The encoded file must contain a small header that carries the CRC of the origina
 
 The project contains two files for the program to run: 
 
-- main.c
-> for functions, main program
-- rle_vasily.h
+- [main.c](https://github.com/vas-dav/RLE-encoding/blob/main/main.c)
+> for functions and main program
+- [rle_vas.h](https://github.com/vas-dav/RLE-encoding/blob/main/rle_vas.h)
 > for declarations and macros
+
+> #### PROJECT USES GETLINE FUNCTION, SO PREPARE TO IMPLEMENT YOUR OWN GETLINE IN CASE IT DOESN'T WORK
+> `getline` source: [GNU](https://www.gnu.org/software/libc/manual/html_node/Line-Input.html)
 
 (C) Vasily Davydov 2021
